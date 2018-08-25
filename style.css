@@ -29,6 +29,10 @@ background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.co
   font-size: 10vh;
 }
 
+#navbar{
+  display:none;
+}
+
 
 a{
   border-bottom: 2px solid black !important;
