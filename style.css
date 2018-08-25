@@ -31,6 +31,12 @@ background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.co
 
 #navbar{
   display:none;
+  text-align: center;
+}
+
+#slogan{
+  text-align: right;
+  margin-top: 20%;
 }
 
 
