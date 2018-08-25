@@ -24,6 +24,11 @@ background-position:center;
 background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.com/SR/1532/2875474/40-201391919725_540x360.jpg');
 }*/
 
+#header{
+  display: none;
+  font-size: 10vh;
+}
+
 
 a{
   border-bottom: 2px solid black !important;
@@ -32,4 +37,9 @@ a{
   padding-right: 5px;
   margin-right: 10px;
   color:black !important;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }

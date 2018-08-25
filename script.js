@@ -2,5 +2,8 @@ window.addEventListener("load", slideInLeftBig);
 
 function slideInLeftBig(){
   var header = document.getElementById('header');
-  header.classList.add("animated","fadeInLeftBig","slower");
+  header.style.display ="inherit";
+  header.classList.add("animated","fadeInLeftBig","slower","deal-3");
+  var nav = document.getElementById('navbar');
+  nav.classList.add("animated","fadeInUpBig")
 }
