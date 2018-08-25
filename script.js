@@ -5,6 +5,9 @@ function slideInLeftBig(){
   header.style.display ="inherit";
   header.classList.add("animated","fadeInLeftBig","slower","deal-3");
   var nav = document.getElementById('navbar');
-  nav.style.display = "inherit"
-  nav.classList.add("animated","fadeInUpBig")
+  nav.classList.remove('invisible');
+  nav.classList.add("animated","fadeInUpBig");
+  var slogan = document.getElementById('slogan');
+  slogan.classList.remove('invisible');
+  slogan.classList.add("animated", "fadeInRight", "delay-5s" );
 }

@@ -30,8 +30,8 @@ background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.co
 }
 
 #navbar{
-  display:none;
   text-align: center;
+  justify-content: center;
 }
 
 #slogan{
