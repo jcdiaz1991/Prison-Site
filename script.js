@@ -1,13 +1,31 @@
-window.addEventListener("load", slideInLeftBig);
+window.addEventListener("load", slideIn("container", "fadeInUp", "invisible"));
 
-function slideInLeftBig(){
-  var header = document.getElementById('header');
-  header.style.display ="inherit";
-  header.classList.add("animated","fadeInLeftBig","slower","deal-3");
-  var nav = document.getElementById('navbar');
-  nav.classList.remove('invisible');
-  nav.classList.add("animated","fadeInUpBig");
-  var slogan = document.getElementById('slogan');
-  slogan.classList.remove('invisible');
-  slogan.classList.add("animated", "fadeInRight", "delay-5s" );
+/*var animationEnd = (function(el) {
+  var animations = {
+    animation: 'animationend',
+    OAnimation: 'oAnimationEnd',
+    MozAnimation: 'mozAnimationEnd',
+    WebkitAnimation: 'webkitAnimationEnd',
+  };
+
+  for (var t in animations) {
+    if (el.style[t] !== undefined) {
+      return animations[t];
+    }
+  }
+})(document.createElement('div'));
+
+$('#container').one(animationEnd, slideIn("header", "fadeInRight", "invisible"));
+
+*/
+
+function slideIn(element, animation, remove){
+  let el = document.getElementById(element);
+  el.classList.remove(remove);
+  el.classList.add("animated", animation);
+
 }
+
+slideIn("header", "fadeInRight", "invisible");
+slideIn("slogan", "fadeInLeftBig", "invisible");
+slideIn("navbar", "fadeInUp", "invisible");
