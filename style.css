@@ -30,7 +30,7 @@ background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.co
   background-image: url('https://s3-eu-west-1.amazonaws.com/lot-images.atgmedia.com/SR/1532/2875474/40-201391919725_540x360.jpg');
 }
 #header{
-  font-size: 10vh;
+  font-size: 7vh;
   font-family: myFont;
   animation-delay: 1s;
   -webkit-animation-delay: 1s;
